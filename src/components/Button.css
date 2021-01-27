@@ -1,0 +1,38 @@
+:root{
+    /*Cor de fundo do botão*/
+    --bg-button: black;
+    /*Definição de borda do botão*/
+    --border-button: solid 1px #888;
+}
+
+.button{
+    font-size: 1.4rem;
+    background-color: var(--bg-button);
+    border: none;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+    color: #f0f0f0;
+}
+
+.button:active {
+    background-color: #f0f0f0;
+}
+
+.button.double {
+    grid-column: span 2;
+}
+
+.button.triple {
+    grid-column: span 3;
+}
+
+.button.operation {
+    background-color: #191919;
+    color: #f0f0f0;
+}
+
+.button.operation:active {
+    background-color: #f0f0f0;    
+}
+
